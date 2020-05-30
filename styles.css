@@ -1,0 +1,38 @@
+.title {
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #393e46;
+}
+
+.bg-light {
+    background: eeeeee !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-container {
+    width: 132px;
+    height: 132px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    border-radius: 50%;
+
+    /* box-shadow: 0px 0px 30px 0px #00adb557; */
+
+    border: solid 4px #00adb5;
+}
+
+.text-primary {
+    color: #00adb5 !important;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
