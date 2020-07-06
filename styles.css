@@ -36,3 +36,12 @@ body {
     display: flex;
     align-items: center;
 }
+
+.card-link,
+.card-link:hover {
+    color: black;
+}
+
+.card-link {
+    border-left: solid 4px #00adb5;
+}
