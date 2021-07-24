@@ -1,0 +1,32 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#1ec6fb, #0aade0);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+
+    display: grid;
+    place-items: center;
+}
+
+body > div {
+    padding: 48px;
+    user-select: none;
+    margin-bottom: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
